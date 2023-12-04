@@ -1,0 +1,377 @@
+@import '_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css';
+
+/* _content/FPTBook/Views/Shared/_LayoutCustomer.cshtml.rz.scp.css */
+*[b-2qn78fzmrr] {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body[b-2qn78fzmrr], html[b-2qn78fzmrr] {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: white;
+    background-color: #2c2c2c;
+    text-rendering: optimizeLegibility;
+    min-height: 100vh;
+    max-width: 100vw;
+}
+
+img[b-2qn78fzmrr], svg[b-2qn78fzmrr] {
+    display: block;
+    vertical-align: middle;
+}
+
+.navbar-wrap[b-2qn78fzmrr] {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-height: 3rem;
+    height: 3rem;
+    z-index: 6;
+    transition: margin .15s ease-in-out,transform 75ms ease-out;
+}
+
+.navbar[b-2qn78fzmrr] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    max-width: 1440px;
+    min-width: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    z-index: 1;
+}
+
+.home[b-2qn78fzmrr] {
+    display: flex;
+}
+
+.home-link[b-2qn78fzmrr] {
+    display: flex;
+    flex-grow: 1;
+    height: 36px;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+    .home-link svg[b-2qn78fzmrr] {
+        min-width: 0;
+        width: 40px;
+        height: 36px;
+        margin-right: 0.25rem;
+    }
+
+.page-name[b-2qn78fzmrr] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.side_navbar[b-2qn78fzmrr] {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 50rem;
+    width: 100%;
+}
+
+.search_navbar[b-2qn78fzmrr] {
+    position: relative;
+    display: flex;
+    max-width: 300px;
+    min-width: 300px;
+    z-index: 12;
+    transition: max-width .15s ease-out,min-width .15s ease-out;
+}
+
+.cart_navbar[b-2qn78fzmrr] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2c2c2c;
+    min-width: 40px;
+    min-height: 40px;
+    border-radius: 9999px;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.cart_navbar span[b-2qn78fzmrr] {
+    color: white;
+}
+
+.account_navbar[b-2qn78fzmrr] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2c2c2c;
+    min-width: 40px;
+    min-height: 40px;
+    border-radius: 9999px;
+    margin-left: 1rem;
+}
+
+    .account_navbar span[b-2qn78fzmrr] {
+        color: white;
+    }
+
+.search-input-wrap[b-2qn78fzmrr] {
+    position: relative;
+    color: inherit;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-bottom: auto;
+    margin-top: auto;
+    box-sizing: border-box;
+    z-index: 12;
+    transition: all .15s ease-out;
+}
+
+.search-input[b-2qn78fzmrr] {
+    position: relative;
+    color: currentColor;
+    background: none;
+    width: 100%;
+    height: 32px;
+    border-radius: inherit;
+    padding: 0.25rem 2rem 0.25rem 1rem;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    z-index: 12;
+}
+
+.search-border[b-2qn78fzmrr] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    opacity: 0;
+    transition: all .15s ease-out;
+}
+
+.search-icon[b-2qn78fzmrr] {
+    position: absolute;
+    top: 0.25rem;
+    right: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 0.25rem;
+}
+
+    .search-icon span[b-2qn78fzmrr] {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        width: 1rem;
+        height: 1rem;
+        line-height: 1;
+        text-indent: 0;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+        transition: color .3s cubic-bezier(.25,.8,.5,1);
+    }
+
+.search-shortcut[b-2qn78fzmrr] {
+    position: absolute;
+    top: 0.375em;
+    right: 2.5rem;
+    display: flex;
+    gap: 0.25rem;
+    opacity: .75;
+    transition: opacity .15s ease-out;
+}
+
+.search-result[b-2qn78fzmrr] {
+    position: absolute;
+    top: calc(100% + 0.25rem);
+    left: 0;
+    background-color: #191a1c;
+    width: 100%;
+    max-height: 0;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    overscroll-behavior: none;
+    overflow: hidden;
+    transition: max-height .15s ease-out,padding-top .15s ease-out,padding-bottom .15s ease-out;
+}
+
+.search-backdrop[b-2qn78fzmrr] {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0,0,0,.4);
+    height: 0;
+    opacity: 0;
+    z-index: 5;
+    transition: opacity .15s ease-out,height 0s .15s;
+}
+
+footer .container[b-2qn78fzmrr] {
+    display:flex;
+    width: 100%;
+    margin-left: 10%;
+    justify-content: space-between;
+}
+
+.ft-drawer-columns[b-2qn78fzmrr] {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.ft-drawer-name[b-2qn78fzmrr] {
+    position: relative;
+    height: 38px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font: 600 12px/20px Lato, sans-serif;
+    letter-spacing: 0.57px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.ft-drawer-contents[b-2qn78fzmrr] {
+    display: flex;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.ft-drawer-envelope[b-2qn78fzmrr] {
+    display: flex;
+    flex-direction: row;
+}
+
+.ft-drawer-envelope ul[b-2qn78fzmrr] {
+    list-style: none;
+}
+
+.ft-drawer-envelope ul li[b-2qn78fzmrr] {
+    margin-top: 10px;
+}
+
+    .ft-drawer-envelope ul li a[b-2qn78fzmrr] {
+        text-decoration: none;
+        color: #2c2c2c;
+    }
+
+        .ft-drawer-envelope ul li a svg[b-2qn78fzmrr] {
+            display: inline-block;
+            margin-right: 10px;
+        }
+/* _content/FPTBook/Views/Shared/_LayoutCustomerAdmin.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-y1nt300wkz] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-y1nt300wkz] {
+  color: #0077cc;
+}
+
+.btn-primary[b-y1nt300wkz] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-y1nt300wkz], .nav-pills .show > .nav-link[b-y1nt300wkz] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-y1nt300wkz] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-y1nt300wkz] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-y1nt300wkz] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-y1nt300wkz] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-y1nt300wkz] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+/* _content/FPTBook/Views/Shared/_LayoutStoreOwner.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-bdoosygafm] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-bdoosygafm] {
+  color: #0077cc;
+}
+
+.btn-primary[b-bdoosygafm] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-bdoosygafm], .nav-pills .show > .nav-link[b-bdoosygafm] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-bdoosygafm] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-bdoosygafm] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-bdoosygafm] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-bdoosygafm] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-bdoosygafm] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
