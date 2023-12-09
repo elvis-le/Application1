@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jLNmQqRiK3eXdLCK6syyg5r+P/HZ669bEV9BOcsK13oIVptQW7hbM6bjgnXG2U82vkuuSDnlS+szqJ+u7uKJ7A==",
+  "dgSpecHash": "C+oJcx1oSotQpWZbKr71RCCHDZQWGnL1rBr+M/C20eG8VCwa1qeyUCu33bXnE+gg73G4z6QsGZKtjEgb6a/f8w==",
   "success": true,
-  "projectFilePath": "H:\\University\\Application Development (1670)\\FPTBook\\FPTBook\\FPTBook.csproj",
+  "projectFilePath": "H:\\University\\Application Development\\FPTBook\\FPTBook\\FPTBook.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\khanh\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\khanh\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

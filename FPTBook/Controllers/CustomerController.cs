@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FPTBook.Controllers
 {
-    public class CustomerController1 : Controller
+    public class CustomerController : Controller
     {
         // GET: CustomerController1
         public ActionResult Index()

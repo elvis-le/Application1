@@ -2,7 +2,7 @@
 
 namespace FPTBook.Controllers
 {
-    public class StoreOwnerController1 : Controller
+    public class AdminController : Controller
     {
         public IActionResult Index()
         {
