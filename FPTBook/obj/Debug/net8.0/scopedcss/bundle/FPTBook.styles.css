@@ -1,54 +1,466 @@
 @import '_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css';
 
 /* _content/FPTBook/Views/Shared/_Layout.cshtml.rz.scp.css */
-/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
+:root[b-bm79rppy57] {
+    --header-height: 3.5rem;
+    /*========== Colors ==========*/
+    --first-color: hsl(230, 62%, 56%);
+    --title-color: hsl(230, 70%, 16%);
+    --text-color: hsl(230, 16%, 45%);
+    --border-color: hsl(230, 50%, 90%);
+    --white-color: hsl(0, 0%, 100%);
+    --body-color: hsl(230, 100%, 96%);
+    --container-color: hsl(230, 100%, 97%);
+    /*========== Font and typography ==========*/
+    --body-font: "Montserrat", sans-serif;
+    --second-font: "Montagu Slab", serif;
+    --biggest-font-size: 2rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+    /*========== Font weight ==========*/
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    /*========== z index ==========*/
+    --z-tooltip: 10;
+    --z-fixed: 100;
+}
 
-a.navbar-brand[b-bm79rppy57] {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+/*========== Responsive typography ==========*/
+@media screen and (min-width: 1150px) {
+    :root[b-bm79rppy57] {
+        --biggest-font-size: 3.5rem;
+        --h1-font-size: 2.25rem;
+        --h2-font-size: 1.5rem;
+        --h3-font-size: 1.25rem;
+        --normal-font-size: 1rem;
+        --small-font-size: .875rem;
+        --smaller-font-size: .813rem;
+    }
+}
+
+/*=============== Base ===============*/
+*[b-bm79rppy57] {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html[b-bm79rppy57] {
+    scroll-behavior: smooth;
+}
+
+body[b-bm79rppy57],
+input[b-bm79rppy57],
+button[b-bm79rppy57] {
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+}
+
+body[b-bm79rppy57] {
+    background-color: var(--body-color);
+    color: var(--text-color);
+    transition: background-color .4s;
+}
+
+input[b-bm79rppy57],
+button[b-bm79rppy57] {
+    border: none;
+    outline: none;
+}
+
+h1[b-bm79rppy57], h2[b-bm79rppy57], h3[b-bm79rppy57], h4[b-bm79rppy57] {
+    color: var(--title-color);
+    font-family: var(--second-font);
+    font-weight: var(--font-medium);
+}
+
+ul[b-bm79rppy57] {
+    list-style: none;
 }
 
 a[b-bm79rppy57] {
-  color: #0077cc;
+    text-decoration: none;
 }
 
-.btn-primary[b-bm79rppy57] {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+img[b-bm79rppy57] {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
-.nav-pills .nav-link.active[b-bm79rppy57], .nav-pills .show > .nav-link[b-bm79rppy57] {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+/*=============== Theme ===============*/
+body.dark-theme[b-bm79rppy57] {
+    --title-color: hsl(230, 48%, 85%);
+    --text-color: hsl(230, 16%, 70%);
+    --border-color: hsl(230, 12%, 18%);
+    --body-color: hsl(230, 12%, 8%);
+    --container-color: hsl(230, 12%, 12%);
 }
 
-.border-top[b-bm79rppy57] {
-  border-top: 1px solid #e5e5e5;
-}
-.border-bottom[b-bm79rppy57] {
-  border-bottom: 1px solid #e5e5e5;
+/*=============== Dark theme ===============*/
+.dark-theme .shadow-header[b-bm79rppy57] {
+    box-shadow: 0 2px 16px hsla(0, 0%, 0%, .4);
 }
 
-.box-shadow[b-bm79rppy57] {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+.dark-theme .nav__menu[b-bm79rppy57] {
+    box-shadow: 0 -8px 32px hsla(0,0%,0%,.4);
 }
 
-button.accept-policy[b-bm79rppy57] {
-  font-size: 1rem;
-  line-height: inherit;
+.dark-theme .scrollup[b-bm79rppy57] {
+    box-shadow: 0 2px 8px hsla(0, 0%, 0%, .4);
 }
 
+.dark-theme .search[b-bm79rppy57],
+.dark-theme .login[b-bm79rppy57] {
+    background-color: hsla(230, 12%, 8%, .6);
+}
+
+.dark-theme[b-bm79rppy57]::-webkit-scrollbar {
+    background-color: hsl(230, 16%, 15%);
+}
+
+.dark-theme[b-bm79rppy57]::-webkit-scrollbar-thumb {
+    background-color: hsl(230, 16%, 25%);
+}
+
+    .dark-theme[b-bm79rppy57]::-webkit-scrollbar-thumb:hover {
+        background-color: hsl(230, 16%, 35%);
+    }
+/*=============== Reusable CSS Class ===============*/
+.container[b-bm79rppy57] {
+    max-width: 1220px;
+    margin-inline: 1.5rem;
+}
+
+.grid[b-bm79rppy57] {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.section[b-bm79rppy57] {
+    padding-block: 5rem 1rem;
+}
+
+.section__title[b-bm79rppy57] {
+    text-align: center;
+    font-size: var(--h1-font-size);
+    font-family: var(--second-font);
+    margin-bottom: 2rem;
+}
+
+.main[b-bm79rppy57] {
+    overflow: hidden;
+}
+
+/*=============== Navigation ===============*/
+.header[b-bm79rppy57] {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--body-color);
+    z-index: var(--z-fixed);
+    transition: box-shadow .4s, background-color .4s;
+}
+
+.nav[b-bm79rppy57] {
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo[b-bm79rppy57] {
+    display: inline-flex;
+    align-items: center;
+    column-gap: .5rem;
+    color: var(--first-color);
+    font-weight: var(--font-medium);
+}
+
+    .nav__logo i[b-bm79rppy57] {
+        font-size: 1.25rem;
+    }
+
+@media screen and (max-width: 1150px) {
+    .nav__menu[b-bm79rppy57] {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background-color: var(--container-color);
+        padding: 1.25rem 4rem;
+        box-shadow: 0px -8px 32px hsla(0,0%,0%,.1);
+        transition: background-color .4s;
+    }
+}
+
+.nav__list[b-bm79rppy57] {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__link[b-bm79rppy57] {
+    color: var(--text-color);
+    transition: color .4s;
+}
+
+    .nav__link span[b-bm79rppy57] {
+        display: none;
+    }
+
+    .nav__link i[b-bm79rppy57] {
+        font-size: 1.25rem;
+    }
+
+    .nav__link:hover[b-bm79rppy57] {
+        color: var(--first-color);
+    }
+
+.nav__actions[b-bm79rppy57] {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+    .nav__actions i[b-bm79rppy57] {
+        font-size: 1.25rem;
+        color: var(--title-color);
+        cursor: pointer;
+        transition: color .4s;
+    }
+
+        .nav__actions i:hover[b-bm79rppy57] {
+            color: var(--first-color);
+        }
+/* Add shadow header */
+.shadow-header[b-bm79rppy57] {
+    box-shadow: 0 2px 16px hsla(0, 0%, 0%, .1);
+}
+
+/* Active link */
+.active_link[b-bm79rppy57] {
+    color: var(--first-color);
+}
+
+/*================Footer=================*/
 .footer[b-bm79rppy57] {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px;
+    padding-block: 4rem 6rem;
 }
+
+.footer__container[b-bm79rppy57] {
+    row-gap: 3rem;
+}
+
+.footer__logo[b-bm79rppy57] {
+    display: inline-flex;
+    align-items: center;
+    column-gap: .5rem;
+    color: var(--first-color);
+    font-size: var(--h3-font-size);
+    font-family: var(--second-font);
+    margin-bottom: 1.25rem;
+}
+
+    .footer__logo i[b-bm79rppy57] {
+        font-size: 1.5rem;
+    }
+
+.footer__data[b-bm79rppy57] {
+    grid-template-columns: repeat(2, max-content);
+    gap: 3rem 2rem;
+}
+
+.footer__title[b-bm79rppy57] {
+    font-size: var(--h3-font-size);
+    margin-bottom: 1.25rem;
+}
+
+.footer__links[b-bm79rppy57] {
+    display: grid;
+    row-gap: .5rem;
+}
+
+.footer__link[b-bm79rppy57] {
+    color: var(--text-color);
+    transition: color .4s;
+}
+
+    .footer__link:hover[b-bm79rppy57] {
+        color: var(--first-color);
+    }
+
+.footer__info[b-bm79rppy57] {
+    font-style: normal;
+}
+
+.footer__social[b-bm79rppy57] {
+    display: flex;
+    column-gap: 1.25rem;
+}
+
+.footer__social-link[b-bm79rppy57] {
+    color: var(--first-color);
+    font-size: 1.25rem;
+}
+
+.footer__copy[b-bm79rppy57] {
+    display: block;
+    text-align: center;
+    margin-top: 5rem;
+    font-size: var(--small-font-size);
+}
+
+/*=========================Scroll bar=============================*/
+
+[b-bm79rppy57]::-webkit-scrollbar {
+    width: .6rem;
+    border-radius: .5rem;
+    background-color: hsl(230, 16%, 85%);
+}
+
+[b-bm79rppy57]::-webkit-scrollbar-thumb {
+    border-radius: .5rem;
+    background-color: hsl(230, 16%, 65%);
+}
+
+    [b-bm79rppy57]::-webkit-scrollbar-thumb:hover {
+        background-color: hsl(230, 16%, 55%);
+    }
+
+/*=========================Scroll up=============================*/
+.scrollup[b-bm79rppy57] {
+    position: fixed;
+    right: 1rem;
+    bottom: -50%;
+    background-color: var(--container-color);
+    box-shadow: 0 2px 8px hsla(0, 0%, 0%, .1);
+    display: inline-flex;
+    padding: 6px;
+    font-size: 1.25rem;
+    color: var(--title-color);
+    z-index: var(--z-tooltip);
+    transition: bottom .4s, transform .4s, background-color .4s;
+}
+
+    .scrollup:hover[b-bm79rppy57] {
+        transform: translateY(-.5rem);
+    }
+
+/* Show Scroll Up */
+.show-scroll[b-bm79rppy57] {
+    bottom: 6rem;
+}
+
+/*============Breakpoint============*/
+@media screen and (max-width: 320px) {
+    .nav__menu[b-bm79rppy57] {
+        padding-inline: 3rem;
+    }
+
+    .footer__data[b-bm79rppy57] {
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+    }
+}
+
+
+@media screen and (min-width: 576px) {    
+    .nav__menu[b-bm79rppy57] {
+        width: 380px;
+        margin-inline: auto;
+    }
+
+    .footer__data[b-bm79rppy57] {
+        grid-template-columns: repeat(3, max-content);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .footer__container[b-bm79rppy57] {
+        grid-template-columns: repeat(2, max-content);
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 1150px) {
+    .nav_wrapper[b-bm79rppy57] {
+        height: calc(var(--header-height)+2rem);
+        column-gap: 4rem;
+    }
+
+    .nav__link i[b-bm79rppy57] {
+        display: none;
+    }
+
+    .nav__link span[b-bm79rppy57] {
+        display: block;
+    }
+
+    .nav__menu[b-bm79rppy57] {
+        width: initial;
+        margin-inline: auto 0;
+    }
+
+    .nav__list[b-bm79rppy57] {
+        column-gap: 4rem;
+    }
+
+    .nav__link[b-bm79rppy57] {
+        font-weight: var(--font-medium);
+    }
+
+    .dark-theme .nav__menu[b-bm79rppy57] {
+        box-shadow: none;
+    }
+
+    .footer[b-bm79rppy57] {
+        padding-block: 6rem 3rem;
+    }
+
+    .footer__data[b-bm79rppy57] {
+        grid-template-columns: repeat(4, max-content);
+        column-gap: 4.5rem;
+    }
+
+    .footer__logo[b-bm79rppy57],
+    .footer__title[b-bm79rppy57] {
+        font-size: var(--h2-font-size);
+        margin-bottom: 1.5rem;
+    }
+
+    .footer__links[b-bm79rppy57] {
+        row-gap: 1.5rem;
+    }
+
+    .footer__social[b-bm79rppy57] {
+        column-gap: 1.5rem;
+    }
+
+    .footer__social-link[b-bm79rppy57] {
+        font-size: 1.5rem;
+    }
+
+    .footer__copy[b-bm79rppy57] {
+        margin-top: 7.5rem;
+    }
+
+    .scrollup[b-bm79rppy57] {
+        right: 3rem;
+    }
+
+    .show-scroll[b-bm79rppy57] {
+        bottom: 3rem;
+    }
+}
+
+
 /* _content/FPTBook/Views/Shared/_LayoutAdmin.cshtml.rz.scp.css */
 /* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
@@ -215,7 +627,7 @@ img[b-2qn78fzmrr], svg[b-2qn78fzmrr] {
     margin-left: 1rem;
 }
 
-    .account_navbar span[b-2qn78fzmrr] {
+    .account_navbar svg[b-2qn78fzmrr] {
         color: white;
     }
 

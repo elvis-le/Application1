@@ -9,24 +9,124 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "H:\\University\\Application Development\\FPTBook\\FPTBook\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "H:\\University\\Application Development\\FPTBook\\FPTBook\\wwwroot\\css\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\css\\swiper-bundle.min.css"
+    },
+    {
       "Id": "H:\\University\\Application Development\\FPTBook\\FPTBook\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "H:\\University\\Application Development\\FPTBook\\FPTBook\\wwwroot\\images\\avt-chibi-nam-de-thuong-ngau-435x580.jpg",
-      "PackagePath": "staticwebassets\\images\\avt-chibi-nam-de-thuong-ngau-435x580.jpg"
+      "Id": "H:\\University\\Application Development\\FPTBook\\FPTBook\\wwwroot\\images\\book-1.png",
+      "PackagePath": "staticwebassets\\images\\book-1.png"
+    },
+    {
+      "Id": "H:\\University\\Application Development\\FPTBook\\FPTBook\\wwwroot\\images\\book-10.png",
+      "PackagePath": "staticwebassets\\images\\book-10.png"
+    },
+    {
+      "Id": "H:\\University\\Application Development\\FPTBook\\FPTBook\\wwwroot\\images\\book-2.png",
+      "PackagePath": "staticwebassets\\images\\book-2.png"
+    },
+    {
+      "Id": "H:\\University\\Application Development\\FPTBook\\FPTBook\\wwwroot\\images\\book-3.png",
+      "PackagePath": "staticwebassets\\images\\book-3.png"
+    },
+    {
+      "Id": "H:\\University\\Application Development\\FPTBook\\FPTBook\\wwwroot\\images\\book-4.png",
+      "PackagePath": "staticwebassets\\images\\book-4.png"
+    },
+    {
+      "Id": "H:\\University\\Application Development\\FPTBook\\FPTBook\\wwwroot\\images\\book-5.png",
+      "PackagePath": "staticwebassets\\images\\book-5.png"
+    },
+    {
+      "Id": "H:\\University\\Application Development\\FPTBook\\FPTBook\\wwwroot\\images\\book-6.png",
+      "PackagePath": "staticwebassets\\images\\book-6.png"
+    },
+    {
+      "Id": "H:\\University\\Application Development\\FPTBook\\FPTBook\\wwwroot\\images\\book-7.png",
+      "PackagePath": "staticwebassets\\images\\book-7.png"
+    },
+    {
+      "Id": "H:\\University\\Application Development\\FPTBook\\FPTBook\\wwwroot\\images\\book-8.png",
+      "PackagePath": "staticwebassets\\images\\book-8.png"
+    },
+    {
+      "Id": "H:\\University\\Application Development\\FPTBook\\FPTBook\\wwwroot\\images\\book-9.png",
+      "PackagePath": "staticwebassets\\images\\book-9.png"
+    },
+    {
+      "Id": "H:\\University\\Application Development\\FPTBook\\FPTBook\\wwwroot\\images\\discount-book-1.png",
+      "PackagePath": "staticwebassets\\images\\discount-book-1.png"
+    },
+    {
+      "Id": "H:\\University\\Application Development\\FPTBook\\FPTBook\\wwwroot\\images\\discount-book-2.png",
+      "PackagePath": "staticwebassets\\images\\discount-book-2.png"
+    },
+    {
+      "Id": "H:\\University\\Application Development\\FPTBook\\FPTBook\\wwwroot\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\images\\favicon.png"
+    },
+    {
+      "Id": "H:\\University\\Application Development\\FPTBook\\FPTBook\\wwwroot\\images\\home-book-1.png",
+      "PackagePath": "staticwebassets\\images\\home-book-1.png"
+    },
+    {
+      "Id": "H:\\University\\Application Development\\FPTBook\\FPTBook\\wwwroot\\images\\home-book-2.png",
+      "PackagePath": "staticwebassets\\images\\home-book-2.png"
+    },
+    {
+      "Id": "H:\\University\\Application Development\\FPTBook\\FPTBook\\wwwroot\\images\\home-book-3.png",
+      "PackagePath": "staticwebassets\\images\\home-book-3.png"
+    },
+    {
+      "Id": "H:\\University\\Application Development\\FPTBook\\FPTBook\\wwwroot\\images\\home-book-4.png",
+      "PackagePath": "staticwebassets\\images\\home-book-4.png"
+    },
+    {
+      "Id": "H:\\University\\Application Development\\FPTBook\\FPTBook\\wwwroot\\images\\join-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\join-bg.jpg"
+    },
+    {
+      "Id": "H:\\University\\Application Development\\FPTBook\\FPTBook\\wwwroot\\images\\testimonial-perfil-1.png",
+      "PackagePath": "staticwebassets\\images\\testimonial-perfil-1.png"
+    },
+    {
+      "Id": "H:\\University\\Application Development\\FPTBook\\FPTBook\\wwwroot\\images\\testimonial-perfil-2.png",
+      "PackagePath": "staticwebassets\\images\\testimonial-perfil-2.png"
+    },
+    {
+      "Id": "H:\\University\\Application Development\\FPTBook\\FPTBook\\wwwroot\\images\\testimonial-perfil-3.png",
+      "PackagePath": "staticwebassets\\images\\testimonial-perfil-3.png"
+    },
+    {
+      "Id": "H:\\University\\Application Development\\FPTBook\\FPTBook\\wwwroot\\images\\testimonial-perfil-4.png",
+      "PackagePath": "staticwebassets\\images\\testimonial-perfil-4.png"
     },
     {
       "Id": "H:\\University\\Application Development\\FPTBook\\FPTBook\\wwwroot\\js\\Portal.js",
       "PackagePath": "staticwebassets\\js\\Portal.js"
     },
     {
-      "Id": "H:\\University\\Application Development\\FPTBook\\FPTBook\\wwwroot\\js\\SearchBar.js",
-      "PackagePath": "staticwebassets\\js\\SearchBar.js"
+      "Id": "H:\\University\\Application Development\\FPTBook\\FPTBook\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "H:\\University\\Application Development\\FPTBook\\FPTBook\\wwwroot\\js\\scrollreveal.min.js",
+      "PackagePath": "staticwebassets\\js\\scrollreveal.min.js"
     },
     {
       "Id": "H:\\University\\Application Development\\FPTBook\\FPTBook\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "H:\\University\\Application Development\\FPTBook\\FPTBook\\wwwroot\\js\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\swiper-bundle.min.js"
     },
     {
       "Id": "H:\\University\\Application Development\\FPTBook\\FPTBook\\wwwroot\\lib\\bootstrap\\LICENSE",
