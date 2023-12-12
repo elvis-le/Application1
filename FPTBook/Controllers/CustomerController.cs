@@ -17,6 +17,11 @@ namespace FPTBook.Controllers
             return View();
         }
 
+        public ActionResult Profile(int id)
+        {
+            return View();
+        }
+
         // GET: CustomerController1/Create
         public ActionResult Create()
         {

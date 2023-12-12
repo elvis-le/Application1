@@ -22,14 +22,60 @@
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" />
     <link rel="stylesheet" href="~/css/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="~/css/styles.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
 
     <title>Responsive book website</title>
 </head>
 <body>
+    <section>
+        <div class="detail_product-container flex-container">
+            <div class="product-left">
+                <div class="product_main-image">
+                    <img src="~/images/home-book-1.png" class="product-slide">
+                </div>
+                <div class="product_option flex-container">
+                    <img src="~/images/book-1.png" onclick="img('images/book-1.png')">
+                    <img src="~/images/book-2.png" onclick="img('images/book-2.png')">
+                    <img src="~/images/book-3.png" onclick="img('images/book-3.png')">
+                    <img src="~/images/book-4.png" onclick="img('images/book-4.png')">
+                    <img src="~/images/book-5.png" onclick="img('images/book-5.png')">
+                    <img src="~/images/book-6.png" onclick="img('images/book-6.png')">
+                </div>
+            </div>
+            <div class="product-right">
+                <div class="product-name">
+                    <h3>Product name</h3>
+                </div>
+                <div class="product-price">
+                    <h4> <small>$</small> 999.99 </h4>
+                </div>
+                <div class="product-detail">
+                    <p>Product detail</p>
+                </div>
+                <div class="product-number">
+                    <h5>Number</h5>
+                    <div class="product-add flex-add">
+                        <span>-</span>
+                        <label>1</label>
+                        <span>+</span>
+                    </div>
+                </div>
+                <div class="product-buy">
+                    <button class="buy-button button">Add to Bag</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        function img(anything) {
+            document.querySelector('.product-slide').src = anything;
+        }
 
-    <script src="~/js/swiper-bundle.min.js"></script>
-    <script src="~/js/scrollreveal.min.js"></script>
-    <script src="~/js/stie.js"></script>
+        function change(change) {
+            const line = document.querySelector('.home');
+            line.style.background = change;
+        }
+    </script>
 </body>
+
 </html>

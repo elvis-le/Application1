@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Gs2OBHalE+CLUL32KFMEF9zcCvAlwGbIhqIl0seFFd0=",
+  "Hash": "zPUmTutEr9Jm09BdWrpyNc0cCd+38h38Xwa/usCRgBA=",
   "Source": "FPTBook",
   "BasePath": "_content/FPTBook",
   "Mode": "Default",
@@ -93,6 +93,25 @@
       "OriginalItemSpec": "H:\\University\\Application\\FPTBook\\FPTBook\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FPTBook.bundle.scp.css"
     },
     {
+      "Identity": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\css\\Class.css",
+      "SourceId": "FPTBook",
+      "SourceType": "Discovered",
+      "ContentRoot": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\",
+      "BasePath": "_content/FPTBook",
+      "RelativePath": "css/Class.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Class.css"
+    },
+    {
       "Identity": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\css\\site.css",
       "SourceId": "FPTBook",
       "SourceType": "Discovered",
@@ -110,25 +129,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
-    },
-    {
-      "Identity": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\css\\styles.css",
-      "SourceId": "FPTBook",
-      "SourceType": "Discovered",
-      "ContentRoot": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\",
-      "BasePath": "_content/FPTBook",
-      "RelativePath": "css/styles.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
       "Identity": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\css\\swiper-bundle.min.css",
@@ -167,6 +167,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\avatar-1.jpg",
+      "SourceId": "FPTBook",
+      "SourceType": "Discovered",
+      "ContentRoot": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\",
+      "BasePath": "_content/FPTBook",
+      "RelativePath": "images/avatar-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\avatar-1.jpg"
     },
     {
       "Identity": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-1.png",

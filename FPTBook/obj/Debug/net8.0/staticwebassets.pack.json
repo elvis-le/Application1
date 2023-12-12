@@ -5,12 +5,12 @@
       "PackagePath": "staticwebassets\\FPTBook.bundle.scp.css"
     },
     {
-      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\css\\Class.css",
+      "PackagePath": "staticwebassets\\css\\Class.css"
     },
     {
-      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\css\\styles.css",
-      "PackagePath": "staticwebassets\\css\\styles.css"
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\css\\swiper-bundle.min.css",
@@ -19,6 +19,10 @@
     {
       "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\avatar-1.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar-1.jpg"
     },
     {
       "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-1.png",

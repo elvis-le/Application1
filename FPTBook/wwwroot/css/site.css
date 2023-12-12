@@ -1053,3 +1053,376 @@ testimonial__description{
         width: 290px;
     }
 }
+
+/*=============== Detail Book ===============*/
+.detail_product-container {
+    max-width: 75%;
+    margin: auto;
+    height: 80vh;
+    margin-top: 5%;
+    background: inherit;
+    box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.3);
+}
+
+.product-left, .product-right {
+    width: 50%;
+    padding: 30px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-add {
+    display: flex;
+}
+
+.product_main-image {
+    width: auto;
+    height: auto;
+}
+
+.product-slide {
+    margin-left: 15%;
+    width: 70%;
+}
+
+
+.product_option img {
+    width: 75px;
+    height: 75px;
+    padding: 10px;
+}
+
+
+.product-right {
+    padding: 50px 100px 50px 50px;
+}
+
+    .product-right .product-name {
+        width: 100%;
+        height: 10%;
+    }
+
+        .product-right .product-name h3 {
+            color: var(--title-color);
+            font-size: 25px;
+        }
+
+    .product-right .product-price {
+        width: 100%;
+        height: 10%;
+    }
+
+        .product-right .product-price h4 {
+            color: red;
+        }
+
+            .product-right .product-price h4 small {
+                color: black;
+            }
+
+    .product-right .product-detail {
+        width: 100%;
+        height: 45%;
+    }
+
+        .product-right .product-detail p {
+            line-height: 25px;
+            color: var(--text-color);
+        }
+
+    .product-right .product-number {
+        width: 100%;
+        height: 20%;
+        display: inline-flex;
+    }
+
+        .product-right .product-number h5 {
+            font-size: 15px;
+            margin-right: 1.5rem;
+            color: var(--text-color);
+        }
+
+.product-add label,
+.product-add span {
+    width: 25px;
+    height: 25px;
+    background: none;
+    border: 1px solid var(--border-color);
+    color: var(--text-color);
+    text-align: center;
+    line-height: 25px;
+}
+
+.product-add label {
+    padding: 10px 30px 0 20px;
+    line-height: 0;
+    border-left: none;
+    border-right: none;
+}
+
+
+.product-right .product-buy {
+    width: 100%;
+    height: 10%;
+}
+
+.product-right h5,
+.product-right p,
+.product-right small {
+    color: #837D7C;
+}
+
+.buy-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    margin-top: 5%;
+    border-radius: 30px;
+}
+
+@media screen and (max-width:768px) {
+    .detail_product-container {
+        max-width: 90%;
+        margin: auto;
+        height: auto;
+    }
+
+    .product-left, .product-right {
+        width: 100%;
+    }
+
+    .detail_product-container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .detail_product-container {
+        max-width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .product-left, .product-right {
+        padding: 0;
+    }
+
+        .product-left img {
+            width: 100%;
+            height: 100%;
+        }
+
+    .product_option {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+/*=============== User Profile ===============*/
+
+.profile_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.profile_user-wrapper {
+    position: relative;
+    display: grid;
+    grid-template-areas:
+        "profile_user-wrap profile_user-detail";
+    width: 85%;
+    height: 80vh;
+    background: var(--body-color);
+    padding: 1.5rem;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 25px rgba(0, 0, 0, 0.08);
+}
+
+.profile_user-wrap {
+    grid-area: profile_user-wrap;
+}
+
+
+.profile_user-detail {
+    grid-area: profile_user-detail;
+}
+
+.profile_user-wrapper .card {
+    background: initial;
+    backdrop-filter: blur(3rem);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.05);
+    border-radius: 0;
+}
+
+.profile_user-wrapper .profile_user-wrap {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+    .profile_user-wrapper .profile_user-wrap .profile_user-image img {
+        width: 20rem;
+        height: 30rem;
+        border-radius: 5%;
+        padding: 0;
+    }
+
+.profile_user-wrapper .profile_user-detail {
+    position: relative;
+    padding: 1.5rem 2.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.profile_user-detail .user-detail-name {
+    display: inline-flex;
+    margin-bottom: 1.5rem;
+}
+
+    .profile_user-detail .user-detail-name h1 {
+        font-size: var(--h1-font-size);
+    }
+
+
+    .profile_user-detail .user-detail-name .user-location {     
+        margin-top: .5rem;
+        margin-left: 5.5rem;
+    }
+
+        .profile_user-detail .user-detail-name .user-location i {
+            margin-right: 0.3rem;
+            font-size: var(--h3-font-size);
+        }
+
+        .profile_user-detail .user-detail-name .user-location span {
+            font-size: var(--h3-font-size);
+            font-weight: 700;
+        }
+
+
+.profile_user-detail {
+    padding: 2.5rem;
+}
+
+    .profile_user-detail .user-contact-information .information-heading,
+    .profile_user-detail .user-basic-infomation .information-heading {
+        font-size: var(--h3-font-size);
+        color: var(--title-color);
+        text-transform: uppercase;
+        margin-bottom: 1.5rem;
+    }
+
+    .profile_user-detail .user-contact-information ul,
+    .profile_user-detail .user-basic-infomation ul {
+        margin-bottom: 1.5rem;
+    }
+
+        .profile_user-detail .user-contact-information ul li,
+        .profile_user-detail .user-basic-infomation ul li {
+            display: flex;
+            margin: 0.5rem 0;
+        }
+
+            .profile_user-detail .user-contact-information ul li h1,
+            .profile_user-detail .user-basic-infomation ul li h1 {
+                font-weight: 500;
+                font-size: var(--h3-font-size);
+                min-width: 12rem;
+            }
+
+            .profile_user-detail .user-contact-information ul li span,
+            .profile_user-detail .user-basic-infomation ul li span {
+                font-size: var(--body-font);
+            }
+
+        .profile_user-detail .user-contact-information ul .user-phone span,
+        .profile_user-detail .user-contact-information ul .user-email span {
+            color: var(--text-color);
+        }
+
+
+.profile-btns{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+    .profile-btns .edit-info-button {
+        margin-right: 10px;
+    }
+
+    .profile-btns .register-seller-button {
+        margin-left: 10px;
+    }
+
+
+    @media screen and (max-width: 1024px) {
+        html {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    html {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 10px;
+    }
+
+    /* ===== =====>>  Container Css Start  <<===== ===== */
+    .profile_user-wrapper {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "header"
+            "userProfile"
+            "userDetails"
+            "work_skills"
+            "timeline_about";
+        overflow-x: hidden;
+        overflow-y: inherit;
+        padding: 0;
+        width: 90%;
+        height: 100%;
+        box-shadow: none;
+    }
+
+        /* ===== =====>>  Container Card Css Start  <<===== ===== */
+        .profile_user-wrapper .card {
+            backdrop-filter: none;
+        }
+
+    .profile_user-detail {
+        margin-bottom: 3rem;
+    }
+
+    .profile_user-wrapper::before,
+    .profile_user-wrapper::after {
+        display: none;
+    }
+
+    /* ===== =====>>  Header/Navbar Css Start  <<===== ===== */
+    .profile_user-wrapper header {
+        padding: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .profile_user-wrapper {
+        width: 100%;
+        overflow: initial;
+    }
+}
