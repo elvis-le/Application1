@@ -6485,11 +6485,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\University\\Application Development\\FPTBook\\FPTBook\\FPTBook.csproj",
+      "projectUniqueName": "H:\\University\\Application\\FPTBook\\FPTBook\\FPTBook.csproj",
       "projectName": "FPTBook",
-      "projectPath": "H:\\University\\Application Development\\FPTBook\\FPTBook\\FPTBook.csproj",
+      "projectPath": "H:\\University\\Application\\FPTBook\\FPTBook\\FPTBook.csproj",
       "packagesPath": "C:\\Users\\khanh\\.nuget\\packages\\",
-      "outputPath": "H:\\University\\Application Development\\FPTBook\\FPTBook\\obj\\",
+      "outputPath": "H:\\University\\Application\\FPTBook\\FPTBook\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\khanh\\AppData\\Roaming\\NuGet\\NuGet.Config",

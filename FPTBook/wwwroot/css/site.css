@@ -177,8 +177,6 @@ body.dark-theme {
     border-right:1px solid black;
 }
 
-.portal-form-wrapper .portal-form-content .content-header {
-}
 
 .portal-form-wrapper .portal-form-content .content-header a{
     display: flex;
@@ -300,17 +298,17 @@ body.dark-theme {
     font-size: 16px;
     font-weight: 500;
     pointer-events: none;
-    transition: .5s ease-out;
+    transition: .5s ease;
 }
 
 .input-box input:hover~label,
-.input-box input:focus~label, 
-.input-box input:valid~label{
+.input-box input:focus~label,
+.input-box input:valid~label {
     top: -5px;
 }
 
 
-.input-box .input-icon{
+.input-box .input-icon {
     position: absolute;
     top: 13px;
     right: 0;
