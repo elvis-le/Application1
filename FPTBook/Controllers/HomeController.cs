@@ -1,5 +1,7 @@
+using FPTBook.Data;
 using FPTBook.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 
 namespace FPTBook.Controllers
@@ -8,14 +10,18 @@ namespace FPTBook.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        private readonly FptbookContext _context;
+
+        public HomeController(FptbookContext context)
         {
-            _logger = logger;
+            _context = context;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            var books = await _context.Books.Include(a => a.ImageBook).ToListAsync();
+
+            return View(books);
         }
 
         public IActionResult DetailBook()

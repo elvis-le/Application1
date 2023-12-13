@@ -1,25 +1,48 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using FPTBook.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace FPTBook.Controllers
 {
     public class CustomerController : Controller
     {
-        // GET: CustomerController1
-        public ActionResult Index()
+
+        private readonly ILogger<HomeController> _logger;
+
+        private readonly FptbookContext _context;
+
+        public CustomerController(FptbookContext context)
         {
-            return View();
+            _context = context;
+        }
+
+        // GET: CustomerController1
+        public async Task<IActionResult> Index()
+        {
+            var books = await _context.Books.Include(a => a.ImageBook).ToListAsync();
+            return View(books);
         }
 
         // GET: CustomerController1/Details/5
-        public ActionResult Details(int id)
+        public IActionResult Details(int id)
         {
             return View();
         }
 
-        public ActionResult Profile(int id)
+        public async Task<IActionResult> Profile(int id)
         {
-            return View();
+            if (id == null || _context.Users == null)
+            {
+                return NotFound();
+            }
+            var user = await _context.Users
+                .FirstOrDefaultAsync(u => u.UserId == id);
+            if (user == null)
+            {
+                return NotFound();
+            }
+            return View(user);
         }
 
         // GET: CustomerController1/Create

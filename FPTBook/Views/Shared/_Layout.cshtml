@@ -52,8 +52,8 @@
             </div>
             <div class="nav__actions">
                 <i class="fa-solid fa-magnifying-glass" id="search-button"></i>
-                <i class="fa-brands fa-opencart" id="cart-button"></i>
-                <i class="fa-regular fa-user" id="user-button"></i>
+                <a asp-controller="Home" asp-action=""><i class="fa-brands fa-opencart" id="cart-button"></i></a>
+                <a asp-controller="Home" asp-action="Login"><i class="fa-regular fa-user" id="user-button"></i></a>
                 <i class="ri-moon-line change-theme" id="theme-button"></i>
             </div>
         </nav>        

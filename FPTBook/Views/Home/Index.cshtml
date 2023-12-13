@@ -1,4 +1,6 @@
-﻿@{
+﻿@model IEnumerable<Book>
+
+@{
     ViewData["Title"] = "Home Page";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
@@ -98,175 +100,25 @@
             <div class="featured__container container">
                 <div class="featured__swiper swiper">
                     <div class="swiper-wrapper">
-                        <article class="featured__card swiper-slide">
-                            <img src="~/images/book-1.png" alt="image" class="featured__img" />
-                            <h2 class="featured__title">Featured Book</h2>
-                            <div class="featured__prices">
-                                <span class="featured__discount">$11.99</span>
-                                <span class="featured__price">$19.99</span>
-                            </div>
+                        @foreach (var item in Model)
+                        {
+                            <article class="featured__card swiper-slide">
+                                <img src="@item.ImageBook.BookImage1" alt="image" class="featured__img" />
+                                <h2 class="featured__title">@item.BookTitle</h2>
+                                <div class="featured__prices">
+                                    <span class="featured__discount">$@item.BookPrice</span>
+                                    <span class="featured__price">$19.99</span>
+                                </div>
 
-                            <button class="button">Add To Cart</button>
+                                <button class="button">Add To Cart</button>
 
-                            <div class="featured__actions">
-                                <button><i class="fa-solid fa-magnifying-glass"></i></button>
-                                <button><i class="fa-regular fa-heart"></i></button>
-                                <button><i class="fa-regular fa-eye"></i></button>
-                            </div>
-                        </article>
-
-                        <article class="featured__card swiper-slide">
-                            <img src="~/images/book-2.png" alt="image" class="featured__img" />
-                            <h2 class="featured__title">Featured Book</h2>
-                            <div class="featured__prices">
-                                <span class="featured__discount">$11.99</span>
-                                <span class="featured__price">$19.99</span>
-                            </div>
-
-                            <button class="button">Add To Cart</button>
-
-                            <div class="featured__actions">
-                                <button><i class="fa-solid fa-magnifying-glass"></i></button>
-                                <button><i class="fa-regular fa-heart"></i></button>
-                                <button><i class="fa-regular fa-eye"></i></button>
-                            </div>
-                        </article>
-
-                        <article class="featured__card swiper-slide">
-                            <img src="~/images/book-3.png" alt="image" class="featured__img" />
-                            <h2 class="featured__title">Featured Book</h2>
-                            <div class="featured__prices">
-                                <span class="featured__discount">$11.99</span>
-                                <span class="featured__price">$19.99</span>
-                            </div>
-
-                            <button class="button">Add To Cart</button>
-
-                            <div class="featured__actions">
-                                <button><i class="fa-solid fa-magnifying-glass"></i></button>
-                                <button><i class="fa-regular fa-heart"></i></button>
-                                <button><i class="fa-regular fa-eye"></i></button>
-                            </div>
-                        </article>
-
-                        <article class="featured__card swiper-slide">
-                            <img src="~/images/book-4.png" alt="image" class="featured__img" />
-                            <h2 class="featured__title">Featured Book</h2>
-                            <div class="featured__prices">
-                                <span class="featured__discount">$11.99</span>
-                                <span class="featured__price">$19.99</span>
-                            </div>
-
-                            <button class="button">Add To Cart</button>
-
-                            <div class="featured__actions">
-                                <button><i class="fa-solid fa-magnifying-glass"></i></button>
-                                <button><i class="fa-regular fa-heart"></i></button>
-                                <button><i class="fa-regular fa-eye"></i></button>
-                            </div>
-                        </article>
-
-                        <article class="featured__card swiper-slide">
-                            <img src="~/images/book-5.png" alt="image" class="featured__img" />
-                            <h2 class="featured__title">Featured Book</h2>
-                            <div class="featured__prices">
-                                <span class="featured__discount">$11.99</span>
-                                <span class="featured__price">$19.99</span>
-                            </div>
-
-                            <button class="button">Add To Cart</button>
-
-                            <div class="featured__actions">
-                                <button><i class="fa-solid fa-magnifying-glass"></i></button>
-                                <button><i class="fa-regular fa-heart"></i></button>
-                                <button><i class="fa-regular fa-eye"></i></button>
-                            </div>
-                        </article>
-
-                        <article class="featured__card swiper-slide">
-                            <img src="~/images/book-6.png" alt="image" class="featured__img" />
-                            <h2 class="featured__title">Featured Book</h2>
-                            <div class="featured__prices">
-                                <span class="featured__discount">$11.99</span>
-                                <span class="featured__price">$19.99</span>
-                            </div>
-
-                            <button class="button">Add To Cart</button>
-
-                            <div class="featured__actions">
-                                <button><i class="fa-solid fa-magnifying-glass"></i></button>
-                                <button><i class="fa-regular fa-heart"></i></button>
-                                <button><i class="fa-regular fa-eye"></i></button>
-                            </div>
-                        </article>
-
-                        <article class="featured__card swiper-slide">
-                            <img src="~/images/book-7.png" alt="image" class="featured__img" />
-                            <h2 class="featured__title">Featured Book</h2>
-                            <div class="featured__prices">
-                                <span class="featured__discount">$11.99</span>
-                                <span class="featured__price">$19.99</span>
-                            </div>
-
-                            <button class="button">Add To Cart</button>
-
-                            <div class="featured__actions">
-                                <button><i class="fa-solid fa-magnifying-glass"></i></button>
-                                <button><i class="fa-regular fa-heart"></i></button>
-                                <button><i class="fa-regular fa-eye"></i></button>
-                            </div>
-                        </article>
-
-                        <article class="featured__card swiper-slide">
-                            <img src="~/images/book-8.png" alt="image" class="featured__img" />
-                            <h2 class="featured__title">Featured Book</h2>
-                            <div class="featured__prices">
-                                <span class="featured__discount">$11.99</span>
-                                <span class="featured__price">$19.99</span>
-                            </div>
-
-                            <button class="button">Add To Cart</button>
-
-                            <div class="featured__actions">
-                                <button><i class="fa-solid fa-magnifying-glass"></i></button>
-                                <button><i class="fa-regular fa-heart"></i></button>
-                                <button><i class="fa-regular fa-eye"></i></button>
-                            </div>
-                        </article>
-
-                        <article class="featured__card swiper-slide">
-                            <img src="~/images/book-9.png" alt="image" class="featured__img" />
-                            <h2 class="featured__title">Featured Book</h2>
-                            <div class="featured__prices">
-                                <span class="featured__discount">$11.99</span>
-                                <span class="featured__price">$19.99</span>
-                            </div>
-
-                            <button class="button">Add To Cart</button>
-
-                            <div class="featured__actions">
-                                <button><i class="fa-solid fa-magnifying-glass"></i></button>
-                                <button><i class="fa-regular fa-heart"></i></button>
-                                <button><i class="fa-regular fa-eye"></i></button>
-                            </div>
-                        </article>
-
-                        <article class="featured__card swiper-slide">
-                            <img src="~/images/book-10.png" alt="image" class="featured__img" />
-                            <h2 class="featured__title">Featured Book</h2>
-                            <div class="featured__prices">
-                                <span class="featured__discount">$11.99</span>
-                                <span class="featured__price">$19.99</span>
-                            </div>
-
-                            <button class="button">Add To Cart</button>
-
-                            <div class="featured__actions">
-                                <button><i class="fa-solid fa-magnifying-glass"></i></button>
-                                <button><i class="fa-regular fa-heart"></i></button>
-                                <button><i class="fa-regular fa-eye"></i></button>
-                            </div>
-                        </article>
+                                <div class="featured__actions">
+                                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                                    <button><i class="fa-regular fa-heart"></i></button>
+                                    <button><i class="fa-regular fa-eye"></i></button>
+                                </div>
+                            </article>
+                        }
                     </div>
                     <div class="swiper-button-prev"><i class="fa-solid fa-chevron-left"></i></div>
                     <div class="swiper-button-next"><i class="fa-solid fa-chevron-right"></i></div>

@@ -19,7 +19,7 @@
             <div class="nav__menu">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="" class="nav__link active-link">
+                        <a class="nav__link active-link" asp-area="" asp-controller="Customer" asp-action="Index">
                             <i class="fa-solid fa-house"></i>
                             <span>Home</span>
                         </a>
@@ -52,8 +52,9 @@
             </div>
             <div class="nav__actions">
                 <i class="fa-solid fa-magnifying-glass" id="search-button"></i>
-                <i class="fa-brands fa-opencart" id="cart-button"></i>
-                <i class="fa-regular fa-user" id="user-button"></i>
+                <a asp-controller="Customer" asp-action=""><i class="fa-brands fa-opencart" id="cart-button"></i></a>
+                <a asp-controller="Customer" asp-action="Profile"><i class="fa-regular fa-user" id="user-button"></i></a>
+                <a asp-controller="Home" asp-action="Login"><i class="fa-solid fa-arrow-right-from-bracket" id="logout-button"></i></a>
                 <i class="ri-moon-line change-theme" id="theme-button"></i>
             </div>
         </nav>

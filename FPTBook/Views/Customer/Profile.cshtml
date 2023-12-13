@@ -1,4 +1,6 @@
-﻿@{
+﻿@model FPTBook.Models.User
+
+@{
     ViewData["Title"] = "Profile";
     Layout = "/Views/Shared/_LayoutCustomer.cshtml";
 }
@@ -30,17 +32,17 @@
         <div class="profile_user-wrapper">
         <div class="profile_user-wrap card">
             <div class="profile_user-image">
-                <img src="~/images/avatar-1.jpg" alt="image">
+                <img src="@Model.UserImage" alt="image">
             </div>
         </div>
         <div class="profile_user-detail card">
             <div class="user-detail-name">
                 <h1 class="user-name">
-                    Name User
+                    @Model.UserFullName
                 </h1>
                 <div class="user-location">
                     <i class="fa-solid fa-location-dot"></i>
-                    <span>Address</span>
+                    <span>@Model.UserAddress</span>
                 </div>
             </div>
             <div class="user-contact-information">
@@ -48,17 +50,17 @@
                 <ul>
                     <li class="user-phone">
                         <h1 class="label">Phone:</h1>
-                        <span class="info">065456353</span>
+                        <span class="info">@Model.UserPhone</span>
                     </li>
 
                     <li class="user-address">
                         <h1 class="label">Address:</h1>
-                        <span class="info">hai phong</span>
+                        <span class="info">@Model.UserAddress</span>
                     </li>
 
                     <li class="user-email">
                         <h1 class="label">E-mail:</h1>
-                        <span class="info">zed@gmail.com</span>
+                            <span class="info">@Model.UserEmail</span>
                     </li>
                 </ul>
             </div>
@@ -68,12 +70,12 @@
                 <ul>
                     <li class="user-birthday">
                         <h1 class="label">Birthday:</h1>
-                        <span class="info">15/09/2003</span>
+                        <span class="info">@Model.UserBirthday</span>
                     </li>
 
                     <li class="user-sex">
                         <h1 class="label">Gender:</h1>
-                        <span class="info">Male</span>
+                        <span class="info">@Model.UserSex</span>
                     </li>
                 </ul>
             </div>
