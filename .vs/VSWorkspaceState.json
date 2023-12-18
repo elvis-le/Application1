@@ -1,12 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\FPTBook",
-    "\\FPTBook\\Controllers",
-    "\\FPTBook\\Views",
-    "\\FPTBook\\Views\\Home",
-    "\\FPTBook\\Views\\Shared"
+    ""
   ],
-  "SelectedNode": "\\FPTBook\\Controllers\\HomeController.cs",
+  "SelectedNode": "\\FPTBook.sln",
   "PreviewInSolutionExplorer": false
 }

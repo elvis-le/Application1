@@ -1,4 +1,6 @@
-﻿using FPTBook.Models;
+﻿using FPTBook.Interfaces;
+using FPTBook.Models;
+using FPTBook.Respository;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -11,23 +13,34 @@ namespace FPTBook.Controllers
         private readonly ILogger<HomeController> _logger;
 
         private readonly FptbookContext _context;
+        private readonly IBookRepository _bookRepository;
 
-        public CustomerController(FptbookContext context)
+        public CustomerController(FptbookContext context, IBookRepository bookRepository)
         {
             _context = context;
+            _bookRepository = bookRepository;
         }
 
         // GET: CustomerController1
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int id)
         {
-            var books = await _context.Books.Include(a => a.ImageBook).ToListAsync();
+            var books = await _bookRepository.GetAll();
             return View(books);
         }
 
         // GET: CustomerController1/Details/5
-        public IActionResult Details(int id)
+        public async Task<IActionResult> DetailsAsync(int id)
         {
-            return View();
+            if (id == null || _context.Books == null)
+            {
+                return NotFound();
+            }
+            var book = await _bookRepository.GetByIdAsync(id);
+            if (book == null)
+            {
+                return NotFound();
+            }
+            return View(book);
         }
 
         public async Task<IActionResult> Profile(int id)
@@ -46,7 +59,7 @@ namespace FPTBook.Controllers
         }
 
         // GET: CustomerController1/Create
-        public ActionResult Create()
+        public ActionResult Cart()
         {
             return View();
         }
@@ -107,5 +120,7 @@ namespace FPTBook.Controllers
                 return View();
             }
         }
+
+        
     }
 }

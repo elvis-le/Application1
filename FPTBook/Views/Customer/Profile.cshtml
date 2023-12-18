@@ -1,4 +1,4 @@
-﻿@model FPTBook.Models.User
+﻿@model User
 
 @{
     ViewData["Title"] = "Profile";
@@ -28,11 +28,80 @@
     <title>Responsive book website</title>
 </head>
 <body>
+    <div class="edit-profile" id="edit-profile">
+        <form action="" class="edit_form">
+            <div class="edit-email">
+                <label>Email:</label>
+                <input type="email" name="email" value="User email" />
+            </div>
+            <div class="edit-name">
+                <label>Name:</label>
+                <input type="text" name="name" value="User name" />
+            </div>
+            <div class="edit-password">
+                <label>Password:</label>
+                <input type="password" name="password" value="User password" />
+            </div>
+            <div class="edit-re-password">
+                <label>Re-Password:</label>
+                <input type="password" name="re-password" value="User re-password" />
+            </div>
+            <div class="edit-image">
+                <label>Image:</label>
+                <input type="file" name="image" />
+            </div>
+            <div class="edit-address">
+                <label>Address:</label>
+                <input type="text" name="address" value="User address" />
+            </div>
+            <div class="edit-phone">
+                <label>Phone:</label>
+                <input type="text" name="phone" value="User phone" />
+            </div>
+            <div class="edit-birthday">
+                <label>Birthday:</label>
+                <input type="password" name="birthday" value="User re-password" />
+            </div>
+            <div class="edit-sex">
+                <label>Sex:</label>
+                <select name="sex">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            <div class="edit-btns">
+                <button class="save-edit-button button" id="save-edit-profile">
+                    Save
+                </button>
+                <button class="cancle-button button" id="cancle-edit-profile">
+                    Cancle
+                </button>
+            </div>
+        </form>
+        <i class="fa-solid fa-xmark edit_close" id="edit-close"></i>
+    </div>
+    <div class="register-seller" id="register-seller">
+        <form action="" class="register-seller_form">
+            <div class="name-store">
+                <label>Name Store:</label>
+                <input type="text" name="name-store" value="Name-store" />
+            </div>            
+            <div class="register-seller-btns">
+                <button class="register-seller-button button" id="register-seller">
+                    Regiter seller
+                </button>
+                <button class="cancle-seller-button button" id="cancle-seller">
+                    Cancle
+                </button>
+            </div>
+        </form>
+        <i class="fa-solid fa-xmark register-seller_close" id="register-seller-close"></i>
+    </div>
     <section class="profile_container">
         <div class="profile_user-wrapper">
         <div class="profile_user-wrap card">
             <div class="profile_user-image">
-                <img src="@Model.UserImage" alt="image">
+                    <img src="@Url.Content("~/images/" + Model.UserImage)" alt="image">
             </div>
         </div>
         <div class="profile_user-detail card">
@@ -80,10 +149,10 @@
                 </ul>
             </div>
             <div class="profile-btns">
-                    <button class="edit-info-button button">
+                    <button class="edit-info-button button" id="edit-info">
                         Edit information
                     </button>
-                    <button class="register-seller-button button">
+                    <button class="register-seller-button button" id="seller-register">
                         Register as a seller
                     </button>
             </div>
@@ -91,7 +160,9 @@
         </div>
         </div>
     </section>
-
+    <script src="~/js/swiper-bundle.min.js"></script>
+    <script src="~/js/scrollreveal.min.js"></script>
+    <script src="~/js/main.js"></script>
 </body>
 </html>
 

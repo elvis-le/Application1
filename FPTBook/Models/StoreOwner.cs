@@ -9,6 +9,7 @@ public partial class StoreOwner
     [Key]
     public int StoreOwnerId { get; set; }
 
+    public string StoreOwnerName { get; set; }
     public int? UserId { get; set; }
 
     public virtual User? User { get; set; }

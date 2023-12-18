@@ -26,8 +26,28 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = H:\University\Application\FPTBook\FPTBook
 build_property._RazorSourceGeneratorDebug = 
 
+[H:/University/Application/FPTBook/FPTBook/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [H:/University/Application/FPTBook/FPTBook/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/University/Application/FPTBook/FPTBook/Views/Admin/ManageCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWFuYWdlQ3VzdG9tZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/University/Application/FPTBook/FPTBook/Views/Admin/ManageStoreOwner.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWFuYWdlU3RvcmVPd25lci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/University/Application/FPTBook/FPTBook/Views/Customer/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/University/Application/FPTBook/FPTBook/Views/Customer/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [H:/University/Application/FPTBook/FPTBook/Views/Customer/Index.cshtml]
@@ -58,8 +78,32 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[H:/University/Application/FPTBook/FPTBook/Views/StoreOwner/AddProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVPd25lclxBZGRQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/University/Application/FPTBook/FPTBook/Views/StoreOwner/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVPd25lclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/University/Application/FPTBook/FPTBook/Views/StoreOwner/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVPd25lclxEYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/University/Application/FPTBook/FPTBook/Views/StoreOwner/EditProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVPd25lclxFZGl0UHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [H:/University/Application/FPTBook/FPTBook/Views/StoreOwner/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVPd25lclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/University/Application/FPTBook/FPTBook/Views/StoreOwner/ManageBook.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVPd25lclxNYW5hZ2VCb29rLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/University/Application/FPTBook/FPTBook/Views/StoreOwner/Record.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVPd25lclxSZWNvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [H:/University/Application/FPTBook/FPTBook/Views/_ViewImports.cshtml]

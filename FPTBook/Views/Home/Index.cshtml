@@ -101,22 +101,24 @@
                 <div class="featured__swiper swiper">
                     <div class="swiper-wrapper">
                         @foreach (var item in Model)
-                        {
+                        {                            
                             <article class="featured__card swiper-slide">
-                                <img src="@item.ImageBook.BookImage1" alt="image" class="featured__img" />
-                                <h2 class="featured__title">@item.BookTitle</h2>
-                                <div class="featured__prices">
-                                    <span class="featured__discount">$@item.BookPrice</span>
-                                    <span class="featured__price">$19.99</span>
-                                </div>
+                                <a asp-controller="Home" asp-action="DetailBook" asp-route-id="@item.BookId">
+                                    <img src="@Url.Content("~/images/" + item.ImageBook.BookImage1)" alt="image" class="featured__img" />
+                                    <h2 class="featured__title">@item.BookTitle</h2>
+                                    <div class="featured__prices">
+                                        <span class="featured__discount">$@item.BookPrice</span>
+                                        <span class="featured__price">$19.99</span>
+                                    </div>
 
-                                <button class="button">Add To Cart</button>
+                                    <button class="button">Add To Cart</button>
 
-                                <div class="featured__actions">
-                                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
-                                    <button><i class="fa-regular fa-heart"></i></button>
-                                    <button><i class="fa-regular fa-eye"></i></button>
-                                </div>
+                                    <div class="featured__actions">
+                                        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                                        <button><i class="fa-regular fa-heart"></i></button>
+                                        <button><i class="fa-regular fa-eye"></i></button>
+                                    </div>
+                                </a>
                             </article>
                         }
                     </div>
@@ -153,350 +155,50 @@
             <div class="new__container container">
                 <div class="new__swiper swiper">
                     <div class="swiper-wrapper">
-                        <a class="new__card swiper-slide">
-                            <img src="~/images/book-1.png" alt="image" class="new__img" />
-                            <div>
-                                <h2 class="new__title">New Book</h2>
-                                <div class="new__prices">
-                                    <span class="new__discount">$7.99</span>
-                                    <span class="new__price">$14.99</span>
+                        @foreach (var item in Model)
+                        {
+                            <a class="new__card swiper-slide" asp-controller="Home" asp-action="DetailBook" asp-route-id="@item.BookId">
+                                <img src="@Url.Content("~/images/" + item.ImageBook.BookImage1)" alt="image" class="new__img" />
+                                <div>
+                                    <h2 class="new__title">@item.BookTitle</h2>
+                                    <div class="new__prices">
+                                        <span class="new__discount">@item.BookPrice</span>
+                                        <span class="new__price">$20.99</span>
+                                    </div>
+                                    <div class="new__starts">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half-stroke"></i>
+                                    </div>
                                 </div>
-                                <div class="new__starts">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star-half-stroke"></i>
-                                </div>
-                            </div>
-                        </a>
-                        <a class="new__card swiper-slide">
-                            <img src="~/images/book-2.png" alt="image" class="new__img" />
-                            <div>
-                                <h2 class="new__title">New Book</h2>
-                                <div class="new__prices">
-                                    <span class="new__discount">$7.99</span>
-                                    <span class="new__price">$14.99</span>
-                                </div>
-                                <div class="new__starts">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star-half-stroke"></i>
-                                </div>
-                            </div>
-                        </a>
-                        <a class="new__card swiper-slide">
-                            <img src="~/images/book-3.png" alt="image" class="new__img" />
-                            <div>
-                                <h2 class="new__title">New Book</h2>
-                                <div class="new__prices">
-                                    <span class="new__discount">$7.99</span>
-                                    <span class="new__price">$14.99</span>
-                                </div>
-                                <div class="new__starts">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star-half-stroke"></i>
-                                </div>
-                            </div>
-                        </a>
-                        <a class="new__card swiper-slide">
-                            <img src="~/images/book-4.png" alt="image" class="new__img" />
-                            <div>
-                                <h2 class="new__title">New Book</h2>
-                                <div class="new__prices">
-                                    <span class="new__discount">$7.99</span>
-                                    <span class="new__price">$14.99</span>
-                                </div>
-                                <div class="new__starts">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star-half-stroke"></i>
-                                </div>
-                            </div>
-                        </a>
-                        <a class="new__card swiper-slide">
-                            <img src="~/images/book-5.png" alt="image" class="new__img" />
-                            <div>
-                                <h2 class="new__title">New Book</h2>
-                                <div class="new__prices">
-                                    <span class="new__discount">$7.99</span>
-                                    <span class="new__price">$14.99</span>
-                                </div>
-                                <div class="new__starts">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star-half-stroke"></i>
-                                </div>
-                            </div>
-                        </a>
-                        <a class="new__card swiper-slide">
-                            <img src="~/images/book-6.png" alt="image" class="new__img" />
-                            <div>
-                                <h2 class="new__title">New Book</h2>
-                                <div class="new__prices">
-                                    <span class="new__discount">$7.99</span>
-                                    <span class="new__price">$14.99</span>
-                                </div>
-                                <div class="new__starts">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star-half-stroke"></i>
-                                </div>
-                            </div>
-                        </a>
-                        <a class="new__card swiper-slide">
-                            <img src="~/images/book-7.png" alt="image" class="new__img" />
-                            <div>
-                                <h2 class="new__title">New Book</h2>
-                                <div class="new__prices">
-                                    <span class="new__discount">$7.99</span>
-                                    <span class="new__price">$14.99</span>
-                                </div>
-                                <div class="new__starts">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star-half-stroke"></i>
-                                </div>
-                            </div>
-                        </a>
-                        <a class="new__card swiper-slide">
-                            <img src="~/images/book-8.png" alt="image" class="new__img" />
-                            <div>
-                                <h2 class="new__title">New Book</h2>
-                                <div class="new__prices">
-                                    <span class="new__discount">$7.99</span>
-                                    <span class="new__price">$14.99</span>
-                                </div>
-                                <div class="new__starts">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star-half-stroke"></i>
-                                </div>
-                            </div>
-                        </a>
-                        <a class="new__card swiper-slide">
-                            <img src="~/images/book-9.png" alt="image" class="new__img" />
-                            <div>
-                                <h2 class="new__title">New Book</h2>
-                                <div class="new__prices">
-                                    <span class="new__discount">$7.99</span>
-                                    <span class="new__price">$14.99</span>
-                                </div>
-                                <div class="new__starts">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star-half-stroke"></i>
-                                </div>
-                            </div>
-                        </a>
-                        <a class="new__card swiper-slide">
-                            <img src="~/images/book-10.png" alt="image" class="new__img" />
-                            <div>
-                                <h2 class="new__title">New Book</h2>
-                                <div class="new__prices">
-                                    <span class="new__discount">$7.99</span>
-                                    <span class="new__price">$14.99</span>
-                                </div>
-                                <div class="new__starts">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star-half-stroke"></i>
-                                </div>
-                            </div>
-                        </a>
+                            </a>
+                        }
                     </div>
                 </div>
                 <div class="new__swiper swiper">
                     <div class="swiper-wrapper">
-                        <a class="new__card swiper-slide">
-                            <img src="~/images/book-10.png" alt="image" class="new__img" />
-                            <div>
-                                <h2 class="new__title">New Book</h2>
-                                <div class="new__prices">
-                                    <span class="new__discount">$7.99</span>
-                                    <span class="new__price">$14.99</span>
+                        @foreach (var item in Model)
+                        {
+                            <a class="new__card swiper-slide" asp-controller="Home" asp-action="DetailBook" asp-route-id="@item.BookId">
+                                <img src="@Url.Content("~/images/" + item.ImageBook.BookImage1)" alt="image" class="new__img" />
+                                <div>
+                                    <h2 class="new__title">@item.BookTitle</h2>
+                                    <div class="new__prices">
+                                        <span class="new__discount">@item.BookPrice</span>
+                                        <span class="new__price">$20.99</span>
+                                    </div>
+                                    <div class="new__starts">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half-stroke"></i>
+                                    </div>
                                 </div>
-                                <div class="new__starts">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star-half-stroke"></i>
-                                </div>
-                            </div>
-                        </a>
-                        <a class="new__card swiper-slide">
-                            <img src="~/images/book-9.png" alt="image" class="new__img" />
-                            <div>
-                                <h2 class="new__title">New Book</h2>
-                                <div class="new__prices">
-                                    <span class="new__discount">$7.99</span>
-                                    <span class="new__price">$14.99</span>
-                                </div>
-                                <div class="new__starts">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star-half-stroke"></i>
-                                </div>
-                            </div>
-                        </a>
-                        <a class="new__card swiper-slide">
-                            <img src="~/images/book-8.png" alt="image" class="new__img" />
-                            <div>
-                                <h2 class="new__title">New Book</h2>
-                                <div class="new__prices">
-                                    <span class="new__discount">$7.99</span>
-                                    <span class="new__price">$14.99</span>
-                                </div>
-                                <div class="new__starts">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star-half-stroke"></i>
-                                </div>
-                            </div>
-                        </a>
-                        <a class="new__card swiper-slide">
-                            <img src="~/images/book-7.png" alt="image" class="new__img" />
-                            <div>
-                                <h2 class="new__title">New Book</h2>
-                                <div class="new__prices">
-                                    <span class="new__discount">$7.99</span>
-                                    <span class="new__price">$14.99</span>
-                                </div>
-                                <div class="new__starts">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star-half-stroke"></i>
-                                </div>
-                            </div>
-                        </a>
-                        <a class="new__card swiper-slide">
-                            <img src="~/images/book-6.png" alt="image" class="new__img" />
-                            <div>
-                                <h2 class="new__title">New Book</h2>
-                                <div class="new__prices">
-                                    <span class="new__discount">$7.99</span>
-                                    <span class="new__price">$14.99</span>
-                                </div>
-                                <div class="new__starts">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star-half-stroke"></i>
-                                </div>
-                            </div>
-                        </a>
-                        <a class="new__card swiper-slide">
-                            <img src="~/images/book-5.png" alt="image" class="new__img" />
-                            <div>
-                                <h2 class="new__title">New Book</h2>
-                                <div class="new__prices">
-                                    <span class="new__discount">$7.99</span>
-                                    <span class="new__price">$14.99</span>
-                                </div>
-                                <div class="new__starts">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star-half-stroke"></i>
-                                </div>
-                            </div>
-                        </a>
-                        <a class="new__card swiper-slide">
-                            <img src="~/images/book-4.png" alt="image" class="new__img" />
-                            <div>
-                                <h2 class="new__title">New Book</h2>
-                                <div class="new__prices">
-                                    <span class="new__discount">$7.99</span>
-                                    <span class="new__price">$14.99</span>
-                                </div>
-                                <div class="new__starts">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star-half-stroke"></i>
-                                </div>
-                            </div>
-                        </a>
-                        <a class="new__card swiper-slide">
-                            <img src="~/images/book-3.png" alt="image" class="new__img" />
-                            <div>
-                                <h2 class="new__title">New Book</h2>
-                                <div class="new__prices">
-                                    <span class="new__discount">$7.99</span>
-                                    <span class="new__price">$14.99</span>
-                                </div>
-                                <div class="new__starts">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star-half-stroke"></i>
-                                </div>
-                            </div>
-                        </a>
-                        <a class="new__card swiper-slide">
-                            <img src="~/images/book-2.png" alt="image" class="new__img" />
-                            <div>
-                                <h2 class="new__title">New Book</h2>
-                                <div class="new__prices">
-                                    <span class="new__discount">$7.99</span>
-                                    <span class="new__price">$14.99</span>
-                                </div>
-                                <div class="new__starts">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star-half-stroke"></i>
-                                </div>
-                            </div>
-                        </a>
-                        <a class="new__card swiper-slide">
-                            <img src="~/images/book-1.png" alt="image" class="new__img" />
-                            <div>
-                                <h2 class="new__title">New Book</h2>
-                                <div class="new__prices">
-                                    <span class="new__discount">$7.99</span>
-                                    <span class="new__price">$14.99</span>
-                                </div>
-                                <div class="new__starts">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star-half-stroke"></i>
-                                </div>
-                            </div>
-                        </a>
+                            </a>
+                        }
                     </div>
                 </div>
             </div>
@@ -524,8 +226,8 @@
                 <div class="testimonial__swiper swiper">
                     <div class="swiper-wrapper">
                         <article class="testimonial__card swiper-slide">
-                            <img src="~/images/testimonial-perfil-1.png" alt="image" class="testimonial__img" />
-                            <h2 class="testimonial__title">Rial Loz</h2>
+                            <img src="~/images/acount1.png" alt="image" class="testimonial__img" />
+                            <h2 class="testimonial__title">Lê Nguyễn QUốc Khánh</h2>
                             <p class="tstimonial__description">
                                 The best website to buy books, the purchase
                                 is very easy to make and has great discounts.
@@ -541,8 +243,8 @@
                         </article>
 
                         <article class="testimonial__card swiper-slide">
-                            <img src="~/images/testimonial-perfil-2.png" alt="image" class="testimonial__img" />
-                            <h2 class="testimonial__title">Rial Loz</h2>
+                            <img src="~/images/acount10.png" alt="image" class="testimonial__img" />
+                            <h2 class="testimonial__title">Đỗ Thiên Ân</h2>
                             <p class="tstimonial__description">
                                 The best website to buy books, the purchase
                                 is very easy to make and has great discounts.
@@ -558,8 +260,8 @@
                         </article>
 
                         <article class="testimonial__card swiper-slide">
-                            <img src="~/images/testimonial-perfil-3.png" alt="image" class="testimonial__img" />
-                            <h2 class="testimonial__title">Rial Loz</h2>
+                            <img src="~/images/acount7.png" alt="image" class="testimonial__img" />
+                            <h2 class="testimonial__title">Phùng Hữu Hoài Tuấn</h2>
                             <p class="tstimonial__description">
                                 The best website to buy books, the purchase
                                 is very easy to make and has great discounts.
@@ -575,8 +277,8 @@
                         </article>
 
                         <article class="testimonial__card swiper-slide">
-                            <img src="~/images/testimonial-perfil-4.png" alt="image" class="testimonial__img" />
-                            <h2 class="testimonial__title">Rial Loz</h2>
+                            <img src="~/images/acount8.png" alt="image" class="testimonial__img" />
+                            <h2 class="testimonial__title">Nguyễn Vĩnh Phúc</h2>
                             <p class="tstimonial__description">
                                 The best website to buy books, the purchase
                                 is very easy to make and has great discounts.

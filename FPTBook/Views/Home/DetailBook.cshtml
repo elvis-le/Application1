@@ -1,4 +1,4 @@
-﻿
+﻿@model Book
 @{
     ViewData["Title"] = "DetailBook";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -31,26 +31,45 @@
         <div class="detail_product-container flex-container">
             <div class="product-left">
                 <div class="product_main-image">
-                    <img src="~/images/home-book-1.png" class="product-slide">
+                    <img src="@Url.Content("~/images/" + @Model.ImageBook.BookImage1)" class="product-slide">
                 </div>
                 <div class="product_option flex-container">
-                    <img src="~/images/book-1.png" onclick="img('images/book-1.png')">
-                    <img src="~/images/book-2.png" onclick="img('images/book-2.png')">
-                    <img src="~/images/book-3.png" onclick="img('images/book-3.png')">
-                    <img src="~/images/book-4.png" onclick="img('images/book-4.png')">
-                    <img src="~/images/book-5.png" onclick="img('images/book-5.png')">
-                    <img src="~/images/book-6.png" onclick="img('images/book-6.png')">
+                    @if (!string.IsNullOrEmpty(Model.ImageBook.BookImage2))
+                    {
+                        <img src="@Url.Content("~/images/" + @Model.ImageBook.BookImage2)" onclick="img('@Url.Content("~/images/" + @Model.ImageBook.BookImage2)')">
+                    }
+                    @if (!string.IsNullOrEmpty(Model.ImageBook.BookImage3))
+                    {
+                        <img src="@Url.Content("~/images/" + @Model.ImageBook.BookImage3)" onclick="img('@Url.Content("~/images/" + @Model.ImageBook.BookImage3)')">
+                    }
+                    @if (!string.IsNullOrEmpty(Model.ImageBook.BookImage4))
+                    {
+                        <img src="@Url.Content("~/images/" + @Model.ImageBook.BookImage4)" onclick="img('@Url.Content("~/images/" + @Model.ImageBook.BookImage4)')">
+                    }
+                    @if (!string.IsNullOrEmpty(Model.ImageBook.BookImage5))
+                    {
+                        <img src="@Url.Content("~/images/" + @Model.ImageBook.BookImage5)" onclick="img('@Url.Content("~/images/" + @Model.ImageBook.BookImage5)')">
+                    }
+                    @if (!string.IsNullOrEmpty(Model.ImageBook.BookImage6))
+                    {
+                        <img src="@Url.Content("~/images/" + @Model.ImageBook.BookImage6)" onclick="img('@Url.Content("~/images/" + @Model.ImageBook.BookImage6)')">
+                    }
+                    @if (!string.IsNullOrEmpty(Model.ImageBook.BookImage7))
+                    {
+                        <img src="@Url.Content("~/images/" + @Model.ImageBook.BookImage7)" onclick="img('@Url.Content("~/images/" + @Model.ImageBook.BookImage7)')">
+                    }
+                    
                 </div>
             </div>
             <div class="product-right">
                 <div class="product-name">
-                    <h3>Product name</h3>
+                    <h3>@Model.BookTitle</h3>
                 </div>
                 <div class="product-price">
-                    <h4> <small>$</small> 999.99 </h4>
+                    <h4> <small>$</small> @Model.BookPrice </h4>
                 </div>
                 <div class="product-detail">
-                    <p>Product detail</p>
+                    <p>@Model.BookDetails</p>
                 </div>
                 <div class="product-number">
                     <h5>Number</h5>

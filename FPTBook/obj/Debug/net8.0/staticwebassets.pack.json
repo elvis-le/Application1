@@ -5,10 +5,6 @@
       "PackagePath": "staticwebassets\\FPTBook.bundle.scp.css"
     },
     {
-      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\css\\Class.css",
-      "PackagePath": "staticwebassets\\css\\Class.css"
-    },
-    {
       "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -117,6 +113,226 @@
       "PackagePath": "staticwebassets\\images\\book-10.png"
     },
     {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-11-1.png",
+      "PackagePath": "staticwebassets\\images\\book-11-1.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-11-2.png",
+      "PackagePath": "staticwebassets\\images\\book-11-2.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-11-3.png",
+      "PackagePath": "staticwebassets\\images\\book-11-3.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-11-4.png",
+      "PackagePath": "staticwebassets\\images\\book-11-4.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-11-5.png",
+      "PackagePath": "staticwebassets\\images\\book-11-5.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-11-6.png",
+      "PackagePath": "staticwebassets\\images\\book-11-6.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-11-7.png",
+      "PackagePath": "staticwebassets\\images\\book-11-7.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-12-1.png",
+      "PackagePath": "staticwebassets\\images\\book-12-1.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-12-2.png",
+      "PackagePath": "staticwebassets\\images\\book-12-2.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-12-3.png",
+      "PackagePath": "staticwebassets\\images\\book-12-3.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-12-4.png",
+      "PackagePath": "staticwebassets\\images\\book-12-4.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-12-5.png",
+      "PackagePath": "staticwebassets\\images\\book-12-5.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-12-6.png",
+      "PackagePath": "staticwebassets\\images\\book-12-6.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-12-7.png",
+      "PackagePath": "staticwebassets\\images\\book-12-7.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-13-1.png",
+      "PackagePath": "staticwebassets\\images\\book-13-1.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-13-2.png",
+      "PackagePath": "staticwebassets\\images\\book-13-2.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-13-3.png",
+      "PackagePath": "staticwebassets\\images\\book-13-3.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-13-4.png",
+      "PackagePath": "staticwebassets\\images\\book-13-4.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-13-5.png",
+      "PackagePath": "staticwebassets\\images\\book-13-5.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-13-6.png",
+      "PackagePath": "staticwebassets\\images\\book-13-6.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-13-7.png",
+      "PackagePath": "staticwebassets\\images\\book-13-7.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-14-1.png",
+      "PackagePath": "staticwebassets\\images\\book-14-1.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-14-2.png",
+      "PackagePath": "staticwebassets\\images\\book-14-2.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-14-3.png",
+      "PackagePath": "staticwebassets\\images\\book-14-3.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-14-4.png",
+      "PackagePath": "staticwebassets\\images\\book-14-4.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-14-5.png",
+      "PackagePath": "staticwebassets\\images\\book-14-5.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-14-6.png",
+      "PackagePath": "staticwebassets\\images\\book-14-6.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-14-7.png",
+      "PackagePath": "staticwebassets\\images\\book-14-7.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-15-1.png",
+      "PackagePath": "staticwebassets\\images\\book-15-1.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-15-2.png",
+      "PackagePath": "staticwebassets\\images\\book-15-2.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-15-3.png",
+      "PackagePath": "staticwebassets\\images\\book-15-3.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-15-4.png",
+      "PackagePath": "staticwebassets\\images\\book-15-4.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-15-5.png",
+      "PackagePath": "staticwebassets\\images\\book-15-5.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-15-6.png",
+      "PackagePath": "staticwebassets\\images\\book-15-6.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-15-7.png",
+      "PackagePath": "staticwebassets\\images\\book-15-7.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-16-1.png",
+      "PackagePath": "staticwebassets\\images\\book-16-1.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-16-2.png",
+      "PackagePath": "staticwebassets\\images\\book-16-2.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-16-3.png",
+      "PackagePath": "staticwebassets\\images\\book-16-3.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-16-4.png",
+      "PackagePath": "staticwebassets\\images\\book-16-4.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-16-5.png",
+      "PackagePath": "staticwebassets\\images\\book-16-5.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-16-6.png",
+      "PackagePath": "staticwebassets\\images\\book-16-6.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-16-7.png",
+      "PackagePath": "staticwebassets\\images\\book-16-7.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-17-1.png",
+      "PackagePath": "staticwebassets\\images\\book-17-1.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-17-2.png",
+      "PackagePath": "staticwebassets\\images\\book-17-2.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-17-3.png",
+      "PackagePath": "staticwebassets\\images\\book-17-3.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-17-4.png",
+      "PackagePath": "staticwebassets\\images\\book-17-4.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-17-5.png",
+      "PackagePath": "staticwebassets\\images\\book-17-5.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-17-6.png",
+      "PackagePath": "staticwebassets\\images\\book-17-6.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-17-7.png",
+      "PackagePath": "staticwebassets\\images\\book-17-7.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-18-1.png",
+      "PackagePath": "staticwebassets\\images\\book-18-1.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-18-2.png",
+      "PackagePath": "staticwebassets\\images\\book-18-2.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-18-3.png",
+      "PackagePath": "staticwebassets\\images\\book-18-3.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-19-1.png",
+      "PackagePath": "staticwebassets\\images\\book-19-1.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-19-2.png",
+      "PackagePath": "staticwebassets\\images\\book-19-2.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-19-3.png",
+      "PackagePath": "staticwebassets\\images\\book-19-3.png"
+    },
+    {
       "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-2-1.png",
       "PackagePath": "staticwebassets\\images\\book-2-1.png"
     },
@@ -149,6 +365,154 @@
       "PackagePath": "staticwebassets\\images\\book-2.png"
     },
     {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-20-1.png",
+      "PackagePath": "staticwebassets\\images\\book-20-1.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-20-2.png",
+      "PackagePath": "staticwebassets\\images\\book-20-2.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-20-3.png",
+      "PackagePath": "staticwebassets\\images\\book-20-3.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-21-1.png",
+      "PackagePath": "staticwebassets\\images\\book-21-1.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-22-1.png",
+      "PackagePath": "staticwebassets\\images\\book-22-1.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-22-2.png",
+      "PackagePath": "staticwebassets\\images\\book-22-2.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-22-3.png",
+      "PackagePath": "staticwebassets\\images\\book-22-3.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-23-1.png",
+      "PackagePath": "staticwebassets\\images\\book-23-1.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-23-2.png",
+      "PackagePath": "staticwebassets\\images\\book-23-2.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-23-3.png",
+      "PackagePath": "staticwebassets\\images\\book-23-3.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-23-4.png",
+      "PackagePath": "staticwebassets\\images\\book-23-4.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-24-1.png",
+      "PackagePath": "staticwebassets\\images\\book-24-1.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-24-2.png",
+      "PackagePath": "staticwebassets\\images\\book-24-2.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-25-1.png",
+      "PackagePath": "staticwebassets\\images\\book-25-1.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-25-2.png",
+      "PackagePath": "staticwebassets\\images\\book-25-2.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-25-3.png",
+      "PackagePath": "staticwebassets\\images\\book-25-3.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-26-1.png",
+      "PackagePath": "staticwebassets\\images\\book-26-1.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-26-2.png",
+      "PackagePath": "staticwebassets\\images\\book-26-2.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-26-3.png",
+      "PackagePath": "staticwebassets\\images\\book-26-3.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-26-4.png",
+      "PackagePath": "staticwebassets\\images\\book-26-4.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-26-5.png",
+      "PackagePath": "staticwebassets\\images\\book-26-5.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-27-1.png",
+      "PackagePath": "staticwebassets\\images\\book-27-1.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-27-2.png",
+      "PackagePath": "staticwebassets\\images\\book-27-2.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-27-3.png",
+      "PackagePath": "staticwebassets\\images\\book-27-3.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-27-4.png",
+      "PackagePath": "staticwebassets\\images\\book-27-4.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-27-5.png",
+      "PackagePath": "staticwebassets\\images\\book-27-5.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-27-6.png",
+      "PackagePath": "staticwebassets\\images\\book-27-6.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-27-7.png",
+      "PackagePath": "staticwebassets\\images\\book-27-7.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-28-1.png",
+      "PackagePath": "staticwebassets\\images\\book-28-1.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-28-2.png",
+      "PackagePath": "staticwebassets\\images\\book-28-2.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-28-3.png",
+      "PackagePath": "staticwebassets\\images\\book-28-3.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-29-1.png",
+      "PackagePath": "staticwebassets\\images\\book-29-1.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-29-2.png",
+      "PackagePath": "staticwebassets\\images\\book-29-2.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-29-3.png",
+      "PackagePath": "staticwebassets\\images\\book-29-3.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-29-4.png",
+      "PackagePath": "staticwebassets\\images\\book-29-4.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-29-5.png",
+      "PackagePath": "staticwebassets\\images\\book-29-5.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-29-6.png",
+      "PackagePath": "staticwebassets\\images\\book-29-6.png"
+    },
+    {
       "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-3-1.png",
       "PackagePath": "staticwebassets\\images\\book-3-1.png"
     },
@@ -179,6 +543,18 @@
     {
       "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-3.png",
       "PackagePath": "staticwebassets\\images\\book-3.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-30-1.png",
+      "PackagePath": "staticwebassets\\images\\book-30-1.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-30-2.png",
+      "PackagePath": "staticwebassets\\images\\book-30-2.png"
+    },
+    {
+      "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-30-3.png",
+      "PackagePath": "staticwebassets\\images\\book-30-3.png"
     },
     {
       "Id": "H:\\University\\Application\\FPTBook\\FPTBook\\wwwroot\\images\\book-4-1.png",

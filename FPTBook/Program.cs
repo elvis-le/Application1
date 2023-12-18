@@ -1,10 +1,13 @@
 using FPTBook.Data;
+using FPTBook.Interfaces;
 using FPTBook.Models;
+using FPTBook.Respository;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<IBookRepository, BookRepository>();
 builder.Services.AddDbContext<FptbookContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
@@ -29,6 +32,11 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=StoreOwner}/{action=AddProduct}/{id?}");
+
+
+    //await Seed.SeedUsersAndRolesAsync(app);
+    Seed.SeedData(app);
+
 
 app.Run();
