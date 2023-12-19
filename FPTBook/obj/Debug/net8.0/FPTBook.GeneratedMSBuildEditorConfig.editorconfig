@@ -17,115 +17,115 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FPTBook
 build_property.RootNamespace = FPTBook
-build_property.ProjectDir = H:\University\Application\FPTBook\FPTBook\
+build_property.ProjectDir = H:\University\Application\Application\FPTBook\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = H:\University\Application\FPTBook\FPTBook
+build_property.MSBuildProjectDirectory = H:\University\Application\Application\FPTBook
 build_property._RazorSourceGeneratorDebug = 
 
-[H:/University/Application/FPTBook/FPTBook/Views/Account/Login.cshtml]
+[H:/University/Application/Application/FPTBook/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/University/Application/FPTBook/FPTBook/Views/Admin/Index.cshtml]
+[H:/University/Application/Application/FPTBook/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/University/Application/FPTBook/FPTBook/Views/Admin/ManageCustomer.cshtml]
+[H:/University/Application/Application/FPTBook/Views/Admin/ManageCustomer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWFuYWdlQ3VzdG9tZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/University/Application/FPTBook/FPTBook/Views/Admin/ManageStoreOwner.cshtml]
+[H:/University/Application/Application/FPTBook/Views/Admin/ManageStoreOwner.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWFuYWdlU3RvcmVPd25lci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/University/Application/FPTBook/FPTBook/Views/Customer/Cart.cshtml]
+[H:/University/Application/Application/FPTBook/Views/Customer/Cart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ2FydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/University/Application/FPTBook/FPTBook/Views/Customer/Details.cshtml]
+[H:/University/Application/Application/FPTBook/Views/Customer/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/University/Application/FPTBook/FPTBook/Views/Customer/Index.cshtml]
+[H:/University/Application/Application/FPTBook/Views/Customer/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/University/Application/FPTBook/FPTBook/Views/Customer/Profile.cshtml]
+[H:/University/Application/Application/FPTBook/Views/Customer/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcUHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/University/Application/FPTBook/FPTBook/Views/Home/DetailBook.cshtml]
+[H:/University/Application/Application/FPTBook/Views/Home/DetailBook.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxCb29rLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/University/Application/FPTBook/FPTBook/Views/Home/Index.cshtml]
+[H:/University/Application/Application/FPTBook/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/University/Application/FPTBook/FPTBook/Views/Home/Login.cshtml]
+[H:/University/Application/Application/FPTBook/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/University/Application/FPTBook/FPTBook/Views/Shared/Error.cshtml]
+[H:/University/Application/Application/FPTBook/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/University/Application/FPTBook/FPTBook/Views/Shared/_ValidationScriptsPartial.cshtml]
+[H:/University/Application/Application/FPTBook/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/University/Application/FPTBook/FPTBook/Views/StoreOwner/AddProduct.cshtml]
+[H:/University/Application/Application/FPTBook/Views/StoreOwner/AddProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVPd25lclxBZGRQcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/University/Application/FPTBook/FPTBook/Views/StoreOwner/Create.cshtml]
+[H:/University/Application/Application/FPTBook/Views/StoreOwner/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVPd25lclxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/University/Application/FPTBook/FPTBook/Views/StoreOwner/Dashboard.cshtml]
+[H:/University/Application/Application/FPTBook/Views/StoreOwner/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVPd25lclxEYXNoYm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/University/Application/FPTBook/FPTBook/Views/StoreOwner/EditProduct.cshtml]
+[H:/University/Application/Application/FPTBook/Views/StoreOwner/EditProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVPd25lclxFZGl0UHJvZHVjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/University/Application/FPTBook/FPTBook/Views/StoreOwner/Index.cshtml]
+[H:/University/Application/Application/FPTBook/Views/StoreOwner/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVPd25lclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/University/Application/FPTBook/FPTBook/Views/StoreOwner/ManageBook.cshtml]
+[H:/University/Application/Application/FPTBook/Views/StoreOwner/ManageBook.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVPd25lclxNYW5hZ2VCb29rLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/University/Application/FPTBook/FPTBook/Views/StoreOwner/Record.cshtml]
+[H:/University/Application/Application/FPTBook/Views/StoreOwner/Record.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVPd25lclxSZWNvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/University/Application/FPTBook/FPTBook/Views/_ViewImports.cshtml]
+[H:/University/Application/Application/FPTBook/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/University/Application/FPTBook/FPTBook/Views/_ViewStart.cshtml]
+[H:/University/Application/Application/FPTBook/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/University/Application/FPTBook/FPTBook/Views/Shared/_Layout.cshtml]
+[H:/University/Application/Application/FPTBook/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-bm79rppy57
 
-[H:/University/Application/FPTBook/FPTBook/Views/Shared/_LayoutAdmin.cshtml]
+[H:/University/Application/Application/FPTBook/Views/Shared/_LayoutAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-671fv2hv98
 
-[H:/University/Application/FPTBook/FPTBook/Views/Shared/_LayoutCustomer.cshtml]
+[H:/University/Application/Application/FPTBook/Views/Shared/_LayoutCustomer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRDdXN0b21lci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-2qn78fzmrr
 
-[H:/University/Application/FPTBook/FPTBook/Views/Shared/_LayoutStoreOwner.cshtml]
+[H:/University/Application/Application/FPTBook/Views/Shared/_LayoutStoreOwner.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRTdG9yZU93bmVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-bdoosygafm

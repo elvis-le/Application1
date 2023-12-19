@@ -36,7 +36,7 @@ app.MapControllerRoute(
 
 
     //await Seed.SeedUsersAndRolesAsync(app);
-    Seed.SeedData(app);
+    //Seed.SeedData(app);
 
 
 app.Run();

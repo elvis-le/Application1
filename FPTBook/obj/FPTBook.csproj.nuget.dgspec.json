@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\University\\Application\\FPTBook\\FPTBook\\FPTBook.csproj": {}
+    "H:\\University\\Application\\Application\\FPTBook\\FPTBook.csproj": {}
   },
   "projects": {
-    "H:\\University\\Application\\FPTBook\\FPTBook\\FPTBook.csproj": {
+    "H:\\University\\Application\\Application\\FPTBook\\FPTBook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\University\\Application\\FPTBook\\FPTBook\\FPTBook.csproj",
+        "projectUniqueName": "H:\\University\\Application\\Application\\FPTBook\\FPTBook.csproj",
         "projectName": "FPTBook",
-        "projectPath": "H:\\University\\Application\\FPTBook\\FPTBook\\FPTBook.csproj",
+        "projectPath": "H:\\University\\Application\\Application\\FPTBook\\FPTBook.csproj",
         "packagesPath": "C:\\Users\\khanh\\.nuget\\packages\\",
-        "outputPath": "H:\\University\\Application\\FPTBook\\FPTBook\\obj\\",
+        "outputPath": "H:\\University\\Application\\Application\\FPTBook\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\khanh\\AppData\\Roaming\\NuGet\\NuGet.Config",

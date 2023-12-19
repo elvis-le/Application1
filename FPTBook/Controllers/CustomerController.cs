@@ -43,20 +43,20 @@ namespace FPTBook.Controllers
             return View(book);
         }
 
-        public async Task<IActionResult> Profile(int id)
-        {
-            if (id == null || _context.Users == null)
-            {
-                return NotFound();
-            }
-            var user = await _context.Users
-                .FirstOrDefaultAsync(u => u.UserId == id);
-            if (user == null)
-            {
-                return NotFound();
-            }
-            return View(user);
-        }
+        //public async Task<IActionResult> Profile(int id)
+        //{
+        //    if (id == null || _context.Users == null)
+        //    {
+        //        return NotFound();
+        //    }
+        //    var user = await _context.Users
+        //        .FirstOrDefaultAsync(u => u.UserId == id);
+        //    if (user == null)
+        //    {
+        //        return NotFound();
+        //    }
+        //    return View(user);
+        //}
 
         // GET: CustomerController1/Create
         public ActionResult Cart()
